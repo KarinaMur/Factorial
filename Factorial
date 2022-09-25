@@ -1,0 +1,15 @@
+#include <iostream>
+int Factorial(int x) { 
+      int result=1;
+	  for(int i=1;i<=x;++i)
+      {
+          result*=i;
+      }
+    return result;
+}
+int main()
+{
+    
+    
+    return 0;
+}
